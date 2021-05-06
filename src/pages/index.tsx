@@ -18,10 +18,14 @@ export default function Home() {
       </header>
 
       <div className={styles.containerContent}>
-        <h1>Uma agência de design de<br /> produto digital</h1>
-        <h2>Somos Agência Digital Criativa e Profissional</h2>
-        <button>GET STARTED</button>
-        <Image  src="/images/hero.svg" alt="" height={500} width={700} />
+        <div className={styles.containerLeft}>
+          <h1>Uma agência de design de<br /> produto digital</h1>
+          <h2>Somos Agência Digital Criativa e Profissional</h2>
+          <button>GET STARTED</button>
+        </div>
+        <div className={styles.containerRight}>
+          <Image  src="/images/hero.svg" alt="" height={800} width={1000} />
+        </div>
       </div>
     </div>
   )
