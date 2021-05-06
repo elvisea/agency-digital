@@ -24,7 +24,7 @@ export default function Home() {
           <button>GET STARTED</button>
         </div>
         <div className={styles.containerRight}>
-          <Image  src="/images/hero.svg" alt="" height={800} width={1000} />
+          <Image  src="/images/hero.png" alt="" height={800} width={1000} />
         </div>
       </div>
     </div>
