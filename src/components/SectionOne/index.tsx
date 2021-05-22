@@ -1,7 +1,7 @@
 import Image from "next/image";
-import styles from "../styles/home.module.scss";
+import styles from "./styles.module.scss";
 
-export default function Home() {
+export default function SectionOne() {
   return (
     <>
       <div className={styles.container}>
@@ -24,17 +24,10 @@ export default function Home() {
         </header>
 
         <div className={styles.containerContent}>
-          <div className={styles.containerLeft}>
-            <h1>
-              Uma agência de design de
-              <br /> produto digital
-            </h1>
-            <h2>Somos Agência Digital Criativa e Profissional</h2>
-            <button>GET STARTED</button>
-          </div>
-          <div className={styles.containerRight}>
-            <Image src="/images/hero.png" alt="" height={800} width={1000} />
-          </div>
+          <h1>Uma agência de design de produto digital</h1>
+          <h2>Somos Agência Digital Criativa e Profissional</h2>
+          <button>GET STARTED</button>
+          <Image src="/images/hero.png" alt="" height={786} width={1080} />
         </div>
       </div>
     </>

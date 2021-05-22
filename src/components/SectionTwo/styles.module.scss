@@ -1,23 +1,28 @@
 .container {
-  margin-top: 184px;
-  margin-bottom: 184px;
   display: flex;
   flex-direction: column;
-  padding-right: 375px;
-  padding-left: 375px;
-  background: #f2f2f2 url("../../public/images/bg-second.png");
-  height: 100vh;
+  align-items: center;
+  margin-bottom: 184px;
+  margin-top: 184px;
+  background: #f2f2f2 url("../../../public/images/bg-second.png");
   background-position: top;
   background-repeat: no-repeat;
 
+  span {
+    margin-bottom: 24px;
+    font-size: 12px;
+    letter-spacing: 2.5px;
+    color: #00A077;
+  }
+
   h1 {
     font-size: 48px;
-    font-weight: 122%;
+    font-weight: 500;
     color: #3b3e43;
-    width: 528px;
     height: 118;
-    line-height: 67.2px;
+    text-align: center;
   }
+
 
   .containerCards {
     display: inline-grid;
@@ -32,7 +37,7 @@
       align-items: flex-start;
       justify-content: center;
       width: 370px;
-      height: 375px;
+      height: 335px;
       background-color: #fff;
       border-radius: 15px;
       padding-left: 20px;

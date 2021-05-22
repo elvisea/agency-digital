@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 184px 375px;
+  background: #f2f2f2 url("../../../public/images/bg-three.png");
+  background-position: top;
+  background-repeat: no-repeat;
+
+  span {
+    margin-bottom: 14px;
+    font-size: 12px;
+    font-family: "DM Sans";
+    font-weight: 700;
+    letter-spacing: 2.5px;
+  }
+
+  h1 {
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 67.2px;
+    font-weight: 500;
+  }
+
+  p {
+    margin-bottom: 32px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 28px;
+  }
+}
+
+.containerCard {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 15px;
+  height: 323px;
+  width: 1150px;
+  margin-bottom: 40px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  img {
+    width: 480px;
+    height: 262px;
+    padding-left: 26px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 28px;
+
+    img {
+    }
+
+    h2 {
+      color: #3b3e43;
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    p {
+      color: #595e64;
+      font-size: 16px;
+      margin-bottom: 0;
+      line-height: 24px;
+    }
+  }
+}
