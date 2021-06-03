@@ -4,7 +4,7 @@ export default function SectionTwo() {
   return (
     <>
       <div className={styles.container}>
-        <span>Features</span>
+        <span>FEATURES</span>
         <h1>
           Estamos aqui <br />
           para ajudá-lo com
