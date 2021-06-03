@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 241px;
+  background: #0D0D0D;
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1150px;
+    width: 100%;
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      a {
+        margin-right: 32px;
+        font-size: 16px;
+        font-weight: 500;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  div {
+    border-top: 1px solid #fff;
+    max-width: 1150px;
+    width: 100%;
+    margin-top: 40px;
+  }
+}
